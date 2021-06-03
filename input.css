@@ -1,0 +1,149 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin: 0;
+    background-color: #00A7EA;
+    z-index: 0;
+    list-style: none;
+}
+
+body {
+    margin: 0 10%;
+    width: 80%;
+    height: 600px;
+    margin-bottom: 100px;
+}
+
+header{
+    background-color: whitesmoke;
+    height: 80px;
+    width: 100;
+    background-color: #00A7EA;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin-bottom: 30px;
+}
+
+.header_logo {
+    background-size: cover;
+    width: 30%;
+}
+
+.header_logo img {
+    height: 80px;
+}
+
+.header_link{
+    background-color: whitesmoke;
+}
+
+.header_link a{
+    background-color: whitesmoke;
+    padding-left: 5px;
+}
+
+.header_link span{
+    background-color: whitesmoke;
+}
+
+.user_icon img{
+    width: 10%;
+    display: block;
+    box-sizing: border-box;
+}
+
+.user_info{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    position: relative;
+    margin-bottom: 70px;
+}
+
+.user_name {
+    position: absolute;
+    left: 10%;
+}
+
+
+form input,textarea{
+    background-color: whitesmoke;
+    height: 100%;
+    /* border-radius: 5px; */
+}
+
+form {
+    border-radius: 5px;
+    background-color: whitesmoke;
+    padding-left: 5%;
+    margin-bottom: 40px;
+    /* display: flex;
+    align-items:center;
+    justify-content: left;
+    flex-direction: column; */
+}
+
+form p{
+    background-color: whitesmoke;
+    color: lightslategray;
+    padding: 10px 0;
+    border: none;
+}
+
+.form_box {
+
+    background-color: whitesmoke;
+}
+
+input {
+    font-size: 20px;
+}
+
+textarea {
+    font-size: 20px;
+    width: 80%;
+}
+
+button {
+    display: inline-block;
+    padding: 3px 5px;
+    border: none;
+    color: white;
+    opacity: 0.8;
+    width: 100px;
+}
+
+button:hover{
+    opacity: 1.0;
+}
+
+.btn {
+    padding: 10px 0;
+    background-color: whitesmoke;
+}
+
+table{
+    width: 100%;
+    background-color: whitesmoke;
+    
+}
+
+p {
+    background-color: whitesmoke;
+    padding-left: 6%;
+    border-bottom: 1px solid lightgrey;
+}
+
+h2{
+    background-color: whitesmoke;
+    font-size: 16px;
+    padding-left: 5%;
+    padding-top: 5px;
+}
+
+/* .input_box {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+} */
