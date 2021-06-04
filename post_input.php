@@ -15,7 +15,7 @@ try {
   exit();
 }
 
-$sql = 'SELECT * FROM post_table';
+$sql = 'SELECT * FROM post_table ORDER BY id desc';
 $stmt = $pdo->prepare($sql);
 $status = $stmt->execute();
 
@@ -30,6 +30,7 @@ if($status==false){
       $output .= "<tr>";
       $output .= "<h2>{$record["userName"]}</h2>";
       $output .= "<p>{$record["text"]}</p>";
+      $output .= "<p>{$record["created_at"]}</p>";
       $output .= "</tr>";
   }
 }
