@@ -45,7 +45,7 @@ if($status==false){
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./input.css">
-  <title>DB連携型todoリスト（入力画面）</title>
+  <title>Twitter?</title>
 </head>
 
 <body>
